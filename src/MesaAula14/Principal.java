@@ -22,7 +22,7 @@ public class Principal {
         portoSantos.adicionarContainer(container6);
         portoSantos.adicionarContainer(container4);
 
-        System.out.println("Conteiners Ordenados pelo número:");
+        System.out.println("Containers Ordenados pelo número:");
         portoSantos.ordenar();
         System.out.println();
         System.out.println("Quantidade de Containers perigosos de Origem Desconhecida: " + portoSantos.quantidadePerigoso());

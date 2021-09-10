@@ -23,7 +23,7 @@ public class Porto {
     public void ordenar() {
         containers.sort((container1, container2) -> container1.compararTo(container2));
         for(Container container: containers) {
-            System.out.println(container.getNumero() + " " + container.getPaisOrigem());
+            System.out.println(container.getNumero() + " - " + container.getPaisOrigem());
         }
     };
 
